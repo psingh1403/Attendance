@@ -1,0 +1,112 @@
+/* ------------------------------------- Global Style Start ---------------------------------- */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Helvatica" san-serif;
+    font-size: 16px;
+}
+
+p {
+    letter-spacing: .9px;
+    line-height: 26px;
+    /* font-family: 'Merriweather', sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: 'Rancho', cursive; */
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ------------------------------------- Global Style end ---------------------------------- */
+
+
+/* ------------------------------------- index file css start ---------------------------------- */
+.home-body {
+    margin-top: 180px;
+    border: none !important;
+}
+
+/* ------------------------------------- index file css end ---------------------------------- */
+
+/* ------------------------------------- login file css start ---------------------------------- */
+.login-section form {
+    width: 50%;
+    position: absolute;
+    /* text-align: center; */
+    top: 27%;
+    left: 25%;
+}
+
+/* ------------------------------------- login file css end ---------------------------------- */
+
+/* ------------------------------------- uploadAttendance file css start ---------------------------------- */
+.userAtt-table {
+    width: 60%;
+    position: absolute;
+    top: 16%;
+    left: 20%;
+    /* margin: auto; */
+}
+
+.userAtt-table .button-temp {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+/* ------------------------------------- uploadAttendance file css end ---------------------------------- */
+
+/* =================================================== Admin section ========================================= */
+
+/* ------------------------------------- index file css start ---------------------------------- */
+.admin-section {
+    width: 50%;
+    position: absolute;
+    /* text-align: center; */
+    top: 27%;
+    left: 25%;
+}
+
+/* ------------------------------------- index file css end ---------------------------------- */
+
+/* ------------------------------------- listEmployee file css start ---------------------------------- */
+.listemp-table-one {
+    width: 60%;
+    position: relative;
+    left: 22%;
+}
+
+.listemp-table-two {
+    width: 60%;
+    position: relative;
+    left: 22%;
+}
+/* ------------------------------------- listEmployee file css end ---------------------------------- */
+
+/* ------------------------------------- summartReport file css Start ---------------------------------- */
+.reportForm{
+    /* text-align: center; */
+    position: relative;
+    margin-left: 250px;
+    /* margin: auto; */
+}
+
+/* ------------------------------------- summartReport file css end ---------------------------------- */
